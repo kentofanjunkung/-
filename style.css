@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Tahoma",sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+.profile{
+    padding:30px;
+}
+
+.profile img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border:5px solid white;
+}
+
+.profile h2{
+    margin-top:20px;
+}
+
+.info{
+    background:rgba(255,255,255,0.15);
+    margin:20px;
+    padding:25px;
+    border-radius:15px;
+}
+
+.info ul{
+    list-style:none;
+}
+
+.info li{
+    margin:10px 0;
+}
+
+.contact{
+    padding:30px;
+}
+
+button{
+    margin-top:15px;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#2196f3;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+footer{
+    margin-top:30px;
+    padding:20px;
+}
